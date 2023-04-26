@@ -12,7 +12,7 @@ numero = int(input('Ingresa un numero para probar la hipoteis: '))
 pasos = 0
 while numero > 0 and numero != 1:
     if numero % 2 == 0:
-        numero = numero / 2
+        numero = numero // 2
     else:
         numero = (numero * 3) + 1
     pasos = pasos + 1
